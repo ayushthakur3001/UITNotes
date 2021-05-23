@@ -1,0 +1,248 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.pHead{
+    color: white;
+    font-weight: 3000;
+    text-shadow: black 6px 2px 5px;
+    
+}
+
+
+
+
+
+.main{
+    background-color: #12232E;
+    border-radius: 10px;
+    position: absolute;
+    box-shadow: 2px 2px #8BC6EC ;
+
+}
+
+/* .main::before{
+    background: linear-gradient(#f00 , #f0f);
+    clip-path: circle(30% at right 100%);
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+} */
+.main::after{
+    background: linear-gradient(#2196f3 , #e91e63);
+    clip-path: circle(15% at 5% 10%);
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+.pname{
+    font-size: 30px;
+    text-transform: capitalize;
+    top: 5px;
+    position: absolute;
+    color:white;
+    text-shadow:2px 3px 5px;
+}
+.btns{
+    top: 20px;
+}
+.img1{
+    position: absolute;
+    top: 150px;
+    width: 280px;
+    height: 280px;
+}
+.img2{
+    position: absolute;
+    top: 3px;
+    width: 50px;
+    height: 50px;
+}
+
+.notes{
+    color: white;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    transition:transform .7s;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+}
+/* .Notesh2{
+    position: absolute;
+    color: white;
+    top: 40%;
+    font-size: 30px;
+    left: 15%;
+    z-index: 1;
+    text-shadow: 2px 2px 5px;
+}
+.pyqh2{
+    position: absolute;
+    color: white;
+    top: 40%;
+    font-size: 30px;
+    left: 43%;
+    z-index: 1;
+    text-shadow: 2px 2px 5px;
+    
+}
+.yth2{
+    position: absolute;
+    color: white;
+    top: 40%;
+    font-size: 25px;
+    left: 69%;
+    z-index: 1;
+    text-align: center;
+    text-shadow: 2px 2px 5px;
+    
+} */
+.notes:hover, .pyq:hover , .yt:hover{
+    transform: scale(0.9);
+    
+    cursor: pointer;
+}
+
+/* .notesImg img{
+    width: 70px;
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    z-index: 1;
+    
+}
+.pyqImg img{
+    width: 60px;
+    position: absolute;
+    top: 65%;
+    left: 43%;
+    z-index: 1;
+}
+.ytImg img{
+    width: 130px;
+    position: absolute;
+    top: 65%;
+    left: 66%;
+    z-index: 1;
+} */
+/* .notes p{
+    color: grey;
+}
+.pyq p{
+    color: grey;
+}
+.yt p{
+    color: grey;
+} */
+.pyq{
+    position: absolute;
+    background-color:  #12232E;
+    width: 180px;
+    height: 250px;
+    left: 37%;
+    top: 30%;
+    transition:transform .7s;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+.yt{
+    position: absolute;
+    background-color:  #12232E;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    width: 180px;
+    height: 250px;
+    left: 64%;
+    top: 30%;
+    color: white;
+    transition:transform .7s;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+}
+
+.notes , .pyq, .yt{
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.announce{
+    width: 200px;
+    height: 450px;
+    background-color: #12232E;
+    
+    position: absolute;
+    right: 2%;
+    top: 23%;
+    border-radius: 10px;
+    padding-left: 2px;
+    margin-left: 2px;
+    
+}
+.announce h1{
+    font-size: 30px;
+    color: white;
+}
+
+.suggest{
+    width: 180px;
+    height: 100px;
+    margin-left: 9px;
+    margin-top: 10px;
+    position: absolute;
+    top: 40%;
+    text-align: left;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    
+}
+.suggestText{
+    top: 480%;
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+/* .img1{
+    bottom: 60%;
+    position: absolute;
+} */
+.box{
+    position: absolute;
+    top: 30%;
+}
+.submit{
+    background-color: turquoise;
+    border: solid white 3px;
+    width: 100px;
+    position: absolute;
+    top: 84%;
+    right: 24%;
+    
+}
+.submit:hover{
+    cursor: pointer;
+}
+
